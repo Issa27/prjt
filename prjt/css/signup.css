@@ -1,0 +1,483 @@
+.bloblo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px red solid ;
+    width: 45%;
+    text-align: center;
+    height: 55%;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+.bloblo:hover
+{
+    height: 58%;
+    width: 48%;
+    opacity: 1;
+    background: rgba(254, 255, 253, 0.7)
+}
+body{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+    background-image: url(/image/fab2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+}
+.bloblo h3{
+    position: relative;
+    cursor: pointer;
+    color: red;
+    font-size: 45px;
+    letter-spacing: 5px;
+    left: 6px;
+}
+i{
+    
+    cursor:pointer ;
+}
+input{
+    border: red solid 2px;
+    border-radius: 10px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    color: black;
+
+}
+input:hover{
+    transition: 0.5s;
+    height: 25px;
+    border:3px solid blueviolet;
+}
+
+a
+{
+    padding-right: 10px;
+}
+.foot{
+    border-top :rgb(255, 0, 0) solid 2px; 
+    background-color: rgb(174, 177, 170) ;
+    background-position: 30px ;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+}
+.foot a
+{
+    padding-right: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    
+}
+.head
+{
+    border-bottom:rgb(255, 0, 0) solid 2px ;
+    background: rgba(254, 255, 253, 0.7);
+}
+.head a
+{
+    position: absolute;
+    left: 1270px;
+    bottom: 740px;
+    
+}
+#fuckinglogo
+{
+    padding-left: 30px;   
+}
+.sos
+{
+    position: relative;
+        bottom: -20px;
+
+}
+.imguni{
+    height: 2cm;
+}
+.imgfab{
+    position: absolute;
+    height: 2cm;
+    top: -10px ;
+}
+.contenu
+{
+    position: absolute;
+    top: 100px;
+}
+
+.sos
+{
+    position: relative;
+        bottom: -20px;
+
+}
+.submit_btn{
+    display: inline-block;
+    /* text-decoration: none; */
+    color: rgb(104, 22, 104);
+    border: 1px solid  rgb(255, 255, 255);
+    padding: 12px 34px;
+    font-size: 13px;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    left: 10px;
+}
+.submit_btn:hover
+{
+    
+    border:3px solid blueviolet;
+    background: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+
+  @media (max-width: 700px)
+{
+    .bloblo h3{
+        font-size: 20px;
+    }
+    body
+    {
+        position: fixed;
+        background-image: url(/image/fabphone.jpg);
+        background-position-y: -100px ;
+        
+    }
+    .foot a
+    {
+        padding-right: 20px;
+        cursor: pointer;
+        position: relative;
+        bottom :10px;
+        font-size: small;   
+    }
+    .foot{
+        position: absolute;
+        top: 580px;
+        height: 75%;
+        width: 200%;
+    }
+   
+    .bloblo{
+        border: none;
+        position: relative;
+        top: 230px;
+        height: 400px;
+        left:  150px;
+        
+    }
+    .bloblo:hover
+    {
+        background: transparent;
+
+    }
+    .bloblo a 
+    {
+        position: relative;
+        left: 35px;
+    }
+    .bloblo h3
+    {
+        position: relative;
+        left: 20px;
+    }
+    .head
+    {
+        width: 300%;
+    }
+    .imguni
+    {
+        width: 100px;
+    }
+    .imgfab
+    {
+        width: 100px;
+    }
+    .contenu i
+    {
+        position: absolute;
+        left:  2000px;
+    }
+
+} 
+
+/* @media (width: 3276px){
+
+    body{
+        background-image: url(/image/fabphone.jpg);
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .head
+    {
+        background: rgb(255, 255, 255);
+
+         width: 100%; 
+    }
+   
+    .imguni{
+        width: 3cm ;
+    }
+    .imgfab{
+        position: absolute;
+        top: -5px ;
+        width: 3cm;
+        padding-left: 0px;
+    }
+    .bloblo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px red solid ;
+        width: 180px;
+        text-align: center;
+        height: 40%;
+        border-radius: 30px;
+        opacity: 0.7;
+    }
+     input{
+        border: red solid 2px;
+        border-radius: 10px;
+        width: 95px;
+        height: 20px;
+        text-align: center;
+        color: black;
+    
+    } 
+    .sign{
+        position: relative;
+        cursor: pointer;
+        color: red;
+        font-size: 15px;
+        letter-spacing: 3px;
+        left: 6px;
+        bottom: 0px;
+    }
+    .contenu
+    {
+        position: absolute;
+        bottom: 700px;
+    }
+    img
+    {
+        max-width: 100%;
+    }
+    .sos{
+        position: absolute;
+        bottom: 8px;
+        width: -40px;
+    }
+    .foot{
+        height: 8%;
+    }
+  .bloblo
+  {
+    height: 56%;
+  }
+  .head a
+  {
+      position: relative;
+      left: 0px;
+      bottom: 540px;
+      
+  }
+  .foot a
+    {
+        padding-right: 20px;
+        cursor: pointer;
+        position: relative;
+        top :5px;
+        font-size: small;   
+    }
+    .head a
+{
+    position: absolute;
+    left: 270px;
+    bottom: 495px;
+    
+}
+
+}
+ */
+
+/* @media (min-width: 1000px) and (max-width: 1024px) 
+{
+    body{
+        background-image: url(/image/fab2.JPG);
+        background-position-y: -20px ;
+    }
+    .head
+    {
+        background: rgb(255, 255, 255);
+        height: 55px;
+
+    }
+   
+    .imguni{
+        height: 1cm;
+    }
+    .imgfab{
+        position: absolute;
+        height: 1cm;
+        top: -5px ;
+    }
+    .bloblo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px red solid ;
+        width: 180px;
+        text-align: center;
+        height: 40%;
+        border-radius: 30px;
+        opacity: 0.7;
+    }
+     input{
+        border: red solid 2px;
+        border-radius: 10px;
+        width: 95px;
+        height: 20px;
+        text-align: center;
+        color: black;
+    
+    } 
+    .sign{
+        position: relative;
+        cursor: pointer;
+        color: red;
+        font-size: 15px;
+        letter-spacing: 3px;
+        left: 6px;
+        bottom: 0px;
+    }
+    .contenu
+    {
+        position: absolute;
+        bottom: 700px;
+    }
+    img
+    {
+        max-width: 100%;
+    }
+    .head a
+{
+    position: absolute; */
+    /* left: 670px;
+    bottom: 540px;
+    
+} */
+/* #fuckinglogo
+{ */
+    /* position: absolute;
+    left: 1270px;
+    bottom: 750px; 
+    padding-left: 30px;
+    
+}
+    .sos{
+        position: absolute;
+        bottom: 8px;
+        width: -40px;
+    }
+    .foot{
+        height: 10%;
+    }
+  .bloblo
+  {
+    height: 56%;
+  }
+    
+}
+@media (min-width: 1025px) and (max-width: 1680px) {
+    body{
+        background-image: url(/image/fab2.JPG);
+        background-position-y: -100px ;
+    }
+    .head
+    {
+        background: rgb(255, 255, 255);
+        height: 55px;
+
+    }
+    .imguni{
+        height: 1cm;
+    }
+    .imgfab{
+        position: absolute;
+        height: 1cm;
+        top: -5px ;
+    }
+    .bloblo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px red solid ;
+        width: 680px;
+        text-align: center;
+        height: 54%;
+        border-radius: 30px;
+        opacity: 0.7;
+    }
+     input{
+        border: red solid 2px;
+        border-radius: 10px;
+        width: 95px;
+        height: 20px;
+        text-align: center;
+        color: black;
+    
+    } 
+    .sign{
+        position: relative;
+        cursor: pointer;
+        color: red;
+        font-size: 15px;
+        letter-spacing: 3px;
+        left: 6px;
+        bottom: 0px;
+    }
+    .contenu
+    {
+        position: absolute;
+        bottom: 700px;
+    }
+    img
+    {
+        max-width: 100%;
+    }
+    .head a
+    {
+        position: absolute;
+        left: 1270px;
+        bottom: 740px;
+        
+    }
+    #fuckinglogo
+    {
+        /* position: absolute;
+        left: 1270px;
+        bottom: 750px; 
+        padding-left: 30px;
+        
+    }
+    .sos{
+        position: absolute;
+        bottom: 8px;
+        width: -40px;
+    }
+    .foot{
+        height: 10%;
+    }
+    
+}
