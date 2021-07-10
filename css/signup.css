@@ -78,13 +78,18 @@ a
 {
     border-bottom:rgb(255, 0, 0) solid 2px ;
     background: rgba(254, 255, 253, 0.7);
+    width: 100%;
+
 }
-.head a
+.logoAccIns
 {
-    position: absolute;
+    /* position: absolute;
     left: 1270px;
-    bottom: 740px;
-    
+    bottom: 740px; */
+    width: 50%;
+    margin-left: 70%;
+background-color: red;
+
 }
 #fuckinglogo
 {
@@ -100,7 +105,7 @@ a
     height: 2cm;
 }
 .imgfab{
-    position: absolute;
+    /* position: absolute; */
     height: 2cm;
     top: -10px ;
 }
@@ -136,6 +141,11 @@ a
     background: rgb(255, 0, 0);
     transition: 1s;
 }
+.images
+{
+    /* width: 50%; */
+    background-color:yellow ;
+}
 
 
   @media (max-width: 700px)
@@ -145,7 +155,7 @@ a
     }
     body
     {
-        position: fixed;
+        position: relative;
         background-image: url(/image/fabphone.jpg);
         background-position-y: -100px ;
         
