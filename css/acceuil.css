@@ -1,0 +1,39 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+      margin-top: 15%;
+    left: 0;
+    background-color: #111;
+  }
+  
+  /* Control the right side */
+  .right {
+    margin-top: 15%;
+
+    right: 0;
+    background-color: red;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+  }
+  
+  .img1{
+      height: 5cm;
+  }
+  a
+{
+    padding-right: 10px;
+}
