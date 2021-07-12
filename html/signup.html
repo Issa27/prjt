@@ -25,13 +25,17 @@
        
     </header>
  
-    <form action="signup.html" method="POST">
+    
     <div class="bloblo">
-        <div class="contenu"></div>
-            <h3>Inscription test</h3>
-            <i class="fas fa-user"></i><input type="text" placeholder="name"><br><br>
-            <i class="fas fa-users"></i><input type="text" placeholder="family name"><br><br>
-            <i class="fas fa-user-tie"></i><select name="profession" id=" profession_select">
+        <div class="contenu">
+            <h3>Inscription </h3>
+            
+            <form action="signup.html" method="POST">
+            <div style="display: flex;flex-direction: column; width: 60%;margin:auto;padding: 10px;">
+
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="family name">
+            <select name="profession" id=" profession_select"  style="margin:5px">
                 <option value=""> entrez votre profession</option>
                 <option value="1"> etudiant 1er annee</option>
                 <option value="2">etudiant 2eme annee</option>
@@ -39,13 +43,18 @@
                 <option value="4"> etudiant 4eme annee</option>
                 <option value="5"> etudiant 5eme annee</option>
                 <option value="professeur">professeur</option>
-            </select><br><br>
-            <i class="fas fa-at"></i><input type="email" placeholder="email"><br><br>
-            <i class="fas fa-key"></i><input type="password" placeholder="password"><br><br>
+            </select>
+           <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
             <!-- <i class="fas fa-check"></i><input type="submit" value=" confirmation"><br><br> -->
-            <a href="" class="submit_btn" style="color: black; background-color: cornsilk;">confirmer</a>
+            <!-- <a href="" class="submit_btn" style="color: black; background-color: cornsilk;">confirmer</a> -->
+            <input type="submit" value="confirmer" >
+            
         </div>
     </form>
+        </div>
+    </div>
+   
 
     </div>
     <footer class="foot">

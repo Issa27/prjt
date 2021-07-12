@@ -4,17 +4,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px red solid ;
-    width: 45%;
+    width: 45%; 
     text-align: center;
-    height: 55%;
+    /* height: 55%; */
     border-radius: 30px;
     opacity: 0.7;
 }
 .bloblo:hover
 {
-    height: 58%;
-    width: 48%;
+    /* height: 58%;
+    width: 48%; */
     opacity: 1;
+    text-shadow: 10;
     background: rgba(254, 255, 253, 0.7)
 }
 body{
@@ -31,8 +32,8 @@ body{
 
 }
 .bloblo h3{
-    position: relative;
-    cursor: pointer;
+    /* position: relative; */
+    /* cursor: pointer; */
     color: red;
     font-size: 45px;
     letter-spacing: 5px;
@@ -43,18 +44,34 @@ i{
     cursor:pointer ;
 }
 input{
-    border: red solid 2px;
-    border-radius: 10px;
-    width: 180px;
-    height: 20px;
+    /* border: red solid 2px; */
+    /* border-radius: 10px; */
     text-align: center;
+    width:200px;
+    border: transparent;
+    border-bottom: red solid 1px;
+    border-width: 1px;
+    background-color: transparent;
+    margin: 5px auto;
     color: black;
+    
+    
 
+
+}
+input:focus{
+    outline: none;
+    /* border-bottom: red solid 1px; */
+    width: 100%;
+    transition: 0.5s;
 }
 input:hover{
     transition: 0.5s;
-    height: 25px;
-    border:3px solid blueviolet;
+    width: 100%;
+    transition: 0.5s;
+
+    /* height: 25px; */
+    /* border:3px solid blueviolet; */
 }
 
 a
@@ -106,8 +123,7 @@ a
 }
 .contenu
 {
-    position: absolute;
-    top: 100px;
+    margin: 3%;
 }
 
 .sos
