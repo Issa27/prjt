@@ -26,10 +26,8 @@ body{
     background-color: rgba(254, 255, 253, 0.7);
     background-image: url(/image/fab2.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% ;
     background-position-x: center;
-    
-
 
 }
 .bloblo h3{
@@ -382,14 +380,8 @@ a
     bottom: 540px;
     
 } */
-/* #fuckinglogo
-{ */
-    /* position: absolute;
-    left: 1270px;
-    bottom: 750px; 
-    padding-left: 30px;
-    
-}
+/* 
+
     .sos{
         position: absolute;
         bottom: 8px;

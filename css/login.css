@@ -20,13 +20,16 @@
     
 }
 body{
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
     margin:0 ;
     padding: 0;
+    background-color: rgba(254, 255, 253, 0.7);
     background-image: url(/image/fab2.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size:100% ;
+    background-position-x: center;
 }
 .log{
     cursor: pointer;
@@ -65,7 +68,7 @@ input:hover{
 }
 a
 {
-    padding-right: 20px;
+    padding-right: 10px;
     cursor: pointer;
     
 }
