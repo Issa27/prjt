@@ -20,13 +20,12 @@
     
 }
 body{
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     margin:0 ;
     padding: 0;
     background-image: url(/image/fab2.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-position-x: center
 }
 .log{
     cursor: pointer;
@@ -71,7 +70,7 @@ a
 }
 .contenu
 {
-    padding-top: 120px;
+    padding-top: 80px;
 }
 .head
 {
@@ -104,6 +103,39 @@ a
     position: relative;
     bottom: 10px;
     
+}
+.blabla h3{
+    position: relative;
+    cursor: pointer;
+    color: red;
+    font-size: 45px;
+    letter-spacing: 5px;
+    left: 6px;
+}
+.submit_btn{
+    display: inline-block;
+    /* text-decoration: none; */
+    color: rgb(104, 22, 104);
+    border: 1px solid  rgb(255, 255, 255);
+    padding: 12px 34px;
+    font-size: 13px;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    left: 10px;
+}
+.submit_btn:hover
+{
+    
+    border:3px solid blueviolet;
+    background: rgb(255, 0, 0);
+    transition: 1s;
+}
+input:hover{
+    transition: 0.5s;
+    height: 25px;
+    border:3px solid blueviolet;
 }
 /* @media screen and (min-width: 800px) {
     body {
