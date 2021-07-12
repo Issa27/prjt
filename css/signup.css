@@ -24,7 +24,9 @@ body{
     background-image: url(/image/fab2.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -100px;
+    /* background-position-y: 20%; */
+    background-position: center;
+    /* background-position-y: center; */
 }
 .bloblo h3{
     position: relative;
@@ -78,22 +80,15 @@ a
 {
     border-bottom:rgb(255, 0, 0) solid 2px ;
     background: rgba(254, 255, 253, 0.7);
-    width: 100%;
-
+    display: flex;
+    flex-direction: row;
 }
 .logoAccIns
 {
-    /* position: absolute;
-    left: 1270px;
-    bottom: 740px; */
-    width: 50%;
-    margin-left: 70%;
-background-color: red;
-
-}
-#fuckinglogo
-{
-    padding-left: 30px;   
+    width: 80px;
+    margin-left: auto;
+    padding-left: 10%;
+    padding-top: 1.6%;
 }
 .sos
 {
@@ -102,12 +97,10 @@ background-color: red;
 
 }
 .imguni{
-    height: 2cm;
+    height: 60px;
 }
 .imgfab{
-    /* position: absolute; */
-    height: 2cm;
-    top: -10px ;
+    height: 60px;
 }
 .contenu
 {
@@ -143,8 +136,7 @@ background-color: red;
 }
 .images
 {
-    /* width: 50%; */
-    background-color:yellow ;
+    width: 85%;
 }
 
 
