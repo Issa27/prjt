@@ -23,10 +23,7 @@ body{
     padding: 0;
     background-image: url(/image/fab2.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position-y: 20%; */
-    background-position: center;
-    /* background-position-y: center; */
+    background-position-x: center
 }
 .bloblo h3{
     position: relative;
