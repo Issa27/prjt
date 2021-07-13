@@ -1,4 +1,47 @@
-.blabla{
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin:0 ;
+    padding: 0;
+    background-image: url(/image/fab2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+/* en tete de page */
+.head
+{
+    border-bottom:rgb(255, 0, 0) solid 2px ;
+    background: rgba(254, 255, 253, 0.7);
+    display: flex;
+    flex-direction: row;
+}
+/* config des deux logo de header */.images
+{
+    width: 85%;
+}
+/* config des deux images de header */
+.imguni{
+    height: 60px;
+}
+.imgfab{
+   height: 60px;
+}
+.logoAccIns
+{
+    width: 80px;
+    margin-left: auto;
+    padding-left: 10%;
+    padding-top: 1.6%;
+}
+/* padding betwen the two logos in the header */
+a
+{
+    padding-right: 10px;
+}
+/* styling of our forum */
+.boxlog{
     position: absolute;
     top: 55%;
     left: 50%;
@@ -11,7 +54,7 @@
     opacity: 0.7;
     background: rgba(255, 255, 255, 0.3)
 }
-.blabla:hover
+.boxlog:hover
 {
     height: 58%;
     width: 48%;
@@ -19,20 +62,18 @@
     background: rgba(254, 255, 253, 0.7)
     
 }
-body{
-    box-sizing: border-box;
-    margin:0 ;
-    padding: 0;
-    background-image: url(/image/fab2.JPG);
-    background-repeat: no-repeat;
-    background-position-x: center
-}
-.log{
+/* styling of our box's name */
+.boxlog h3{
+    position: relative;
     cursor: pointer;
     color: red;
+    font-size: 45px;
+    letter-spacing: 5px;
+    left: 6px;
 }
-i{
-    cursor:pointer ;
+.contenu
+{
+    padding-top: 80px;
 }
 input{
     border: red solid 2px;
@@ -41,80 +82,15 @@ input{
     height: 20px;
     text-align: center;
     color: black;
-    
-
+    cursor:pointer ;
 }
 input:hover{
+    transition: 0.5s;
     height: 25px;
-}
-.imguni{
-    height: 60px;
-}
-.imgfab{
-   height: 60px;
-}
-.foot{
-    border-top :rgb(255, 0, 0) solid 2px; 
-    background-color: rgb(174, 177, 170) ;
-    background-position: 30px ;
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
-    height: 8%;
-}
-a
-{
-    padding-right: 20px;
-    cursor: pointer;
-    
-}
-.contenu
-{
-    padding-top: 80px;
-}
-.head
-{
-    border-bottom:rgb(255, 0, 0) solid 2px ;
-    background: rgba(254, 255, 253, 0.7);
-    display: flex;
-    flex-direction: row;
-}
-.logoAccIns
-{
-    width: 80px;
-    margin-left: auto;
-    padding-left: 10%;
-    padding-top: 1.6%;
-}
-.sos
-{
-    position: relative;
-        bottom: -20px;
-
-}
-.images
-{
-    width: 85%;
-}
-.foot a
-{
-    padding-right: 20px;
-    cursor: pointer;
-    position: relative;
-    bottom: 10px;
-    
-}
-.blabla h3{
-    position: relative;
-    cursor: pointer;
-    color: red;
-    font-size: 45px;
-    letter-spacing: 5px;
-    left: 6px;
+    border:3px solid blueviolet;
 }
 .submit_btn{
     display: inline-block;
-    /* text-decoration: none; */
     color: rgb(104, 22, 104);
     border: 1px solid  rgb(255, 255, 255);
     padding: 12px 34px;
@@ -132,10 +108,29 @@ a
     background: rgb(255, 0, 0);
     transition: 1s;
 }
-input:hover{
-    transition: 0.5s;
-    height: 25px;
-    border:3px solid blueviolet;
+/* footer */
+.foot{
+    border-top :rgb(255, 0, 0) solid 2px; 
+    background-color: rgb(174, 177, 170) ;
+    background-position: 30px ;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+}
+.foot a
+{
+    padding-right: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    
+}
+.sociallogo
+{
+    position: relative;
+        bottom: -20px;
+
 }
 /* @media screen and (min-width: 800px) {
     body {

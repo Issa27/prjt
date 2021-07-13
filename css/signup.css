@@ -1,22 +1,3 @@
-.bloblo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px red solid ;
-    width: 45%;
-    text-align: center;
-    height: 55%;
-    border-radius: 30px;
-    opacity: 0.7;
-}
-.bloblo:hover
-{
-    height: 58%;
-    width: 48%;
-    opacity: 1;
-    background: rgba(254, 255, 253, 0.7)
-}
 body{
     box-sizing: border-box;
     width: 100%;
@@ -28,64 +9,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    
-
-
 }
-.bloblo h3{
-    position: relative;
-    cursor: pointer;
-    color: red;
-    font-size: 45px;
-    letter-spacing: 5px;
-    left: 6px;
-}
-i{
-    
-    cursor:pointer ;
-}
-input{
-    border: red solid 2px;
-    border-radius: 10px;
-    width: 180px;
-    height: 20px;
-    text-align: center;
-    color: black;
-
-}
-input:hover{
-    transition: 0.5s;
-    height: 25px;
-    border:3px solid blueviolet;
-}
-
-a
-{
-    padding-right: 10px;
-}
-.foot{
-    border-top :rgb(255, 0, 0) solid 2px; 
-    background-color: rgb(174, 177, 170) ;
-    background-position: 30px ;
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
-    height: 8%;
-}
-.foot a
-{
-    padding-right: 20px;
-    cursor: pointer;
-    position: relative;
-    bottom: 10px;
-    
-}
+/* en tete de page */
 .head
 {
     border-bottom:rgb(255, 0, 0) solid 2px ;
     background: rgba(254, 255, 253, 0.7);
     display: flex;
     flex-direction: row;
+}
+/* config des deux logo de header */
+.images
+{
+    width: 85%;
+}
+/* config des deux images de header */
+.imguni{
+    height: 60px;
+}
+.imgfab{
+    height: 60px;
 }
 .logoAccIns
 {
@@ -94,33 +37,57 @@ a
     padding-left: 10%;
     padding-top: 1.6%;
 }
-.sos
+/* padding betwen the two logos in the header */
+a
 {
-    position: relative;
-        bottom: -20px;
-
+    padding-right: 10px;
 }
-.imguni{
-    height: 60px;
-}
-.imgfab{
-    height: 60px;
-}
-.contenu
-{
+/* styling of our forum */
+.boxsign{
     position: absolute;
-    top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px red solid ;
+    width: 45%;
+    text-align: center;
+    height: 55%;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+.boxsign:hover
+{
+    height: 58%;
+    width: 48%;
+    opacity: 1;
+    background: rgba(254, 255, 253, 0.7)
+}
+/* styling of our box's name */
+.boxsign h3{
+    position: relative;
+    cursor: pointer;
+    color: red;
+    font-size: 45px;
+    letter-spacing: 5px;
+    left: 6px;
 }
 
-.sos
-{
-    position: relative;
-        bottom: -20px;
-
+input{
+    border: red solid 2px;
+    border-radius: 10px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    cursor:pointer ;
+}
+input:hover{
+    transition: 0.5s;
+    height: 25px;
+    border:3px solid blueviolet;
 }
 .submit_btn{
     display: inline-block;
-    /* text-decoration: none; */
     color: rgb(104, 22, 104);
     border: 1px solid  rgb(255, 255, 255);
     padding: 12px 34px;
@@ -138,15 +105,37 @@ a
     background: rgb(255, 0, 0);
     transition: 1s;
 }
-.images
+/* we dont need "contenue styling so i deleted it" */
+
+/* footer */
+.foot{
+    border-top :rgb(255, 0, 0) solid 2px; 
+    background-color: rgb(174, 177, 170) ;
+    background-position: 30px ;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+}
+.foot a
 {
-    width: 85%;
+    padding-right: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    
 }
 
+.sociallogo
+{
+    position: relative;
+        bottom: -20px;
 
+}
+/* 
   @media (max-width: 700px)
 {
-    .bloblo h3{
+    .boxsign h3{
         font-size: 20px;
     }
     body
@@ -171,7 +160,7 @@ a
         width: 200%;
     }
    
-    .bloblo{
+    .boxsign{
         border: none;
         position: relative;
         top: 230px;
@@ -179,17 +168,17 @@ a
         left:  150px;
         
     }
-    .bloblo:hover
+    .boxsign:hover
     {
         background: transparent;
 
     }
-    .bloblo a 
+    .boxsign a 
     {
         position: relative;
         left: 35px;
     }
-    .bloblo h3
+    .boxsign h3
     {
         position: relative;
         left: 20px;
@@ -212,7 +201,7 @@ a
         left:  2000px;
     }
 
-} 
+}  */
 
 /* @media (width: 3276px){
 
@@ -238,7 +227,7 @@ a
         width: 3cm;
         padding-left: 0px;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -277,7 +266,7 @@ a
     {
         max-width: 100%;
     }
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
@@ -285,7 +274,7 @@ a
     .foot{
         height: 8%;
     }
-  .bloblo
+  .boxsign
   {
     height: 56%;
   }
@@ -336,7 +325,7 @@ a
         height: 1cm;
         top: -5px ;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -390,7 +379,7 @@ a
     padding-left: 30px;
     
 }
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
@@ -398,7 +387,7 @@ a
     .foot{
         height: 10%;
     }
-  .bloblo
+  .boxsign
   {
     height: 56%;
   }
@@ -423,7 +412,7 @@ a
         height: 1cm;
         top: -5px ;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -477,7 +466,7 @@ a
         padding-left: 30px;
         
     }
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
