@@ -1,23 +1,3 @@
-.bloblo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px red solid ;
-    width: 45%; 
-    text-align: center;
-    /* height: 55%; */
-    border-radius: 30px;
-    opacity: 0.7;
-}
-.bloblo:hover
-{
-    /* height: 58%;
-    width: 48%; */
-    opacity: 1;
-    text-shadow: 10;
-    background: rgba(254, 255, 253, 0.7)
-}
 body{
     box-sizing: border-box;
     width: 100%;
@@ -29,23 +9,71 @@ body{
     background-repeat: no-repeat;
     background-size:100% ;
     background-position-x: center;
-
 }
-.bloblo h3{
-    /* position: relative; */
-    /* cursor: pointer; */
+/* en tete de la page */
+.head
+{
+    border-bottom:rgb(255, 0, 0) solid 2px ;
+    background: rgba(254, 255, 253, 0.7);
+    display: flex;
+    flex-direction: row;
+}
+/* configuration des images */
+.images
+{
+    width: 85%;
+}
+.imguni{
+    height: 60px;
+}
+.imgfab{
+    height: 60px;
+}
+/* configuration des deux logo */
+.logoAccIns
+{
+    width: 80px;
+    margin-left: auto;
+    padding-left: 10%;
+    padding-top: 1.6%;
+}
+/* spacing betwen the logos */
+a
+{
+    padding-right: 10px;
+}
+
+/* contenaire de formulaire */
+.boxsign{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px red solid ;
+    width: 45%; 
+    text-align: center;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+.boxsign:hover
+{
+    opacity: 1;
+    text-shadow: 10;
+    background: rgba(254, 255, 253, 0.7)
+}
+/* titre de formulaire */
+.boxsign h3{
     color: red;
     font-size: 45px;
     letter-spacing: 5px;
     left: 6px;
 }
-i{
-    
-    cursor:pointer ;
+.contenu
+{
+    margin: 3%;
 }
+/* les entrees */
 input{
-    /* border: red solid 2px; */
-    /* border-radius: 10px; */
     text-align: center;
     width:200px;
     border: transparent;
@@ -54,14 +82,10 @@ input{
     background-color: transparent;
     margin: 5px auto;
     color: black;
-    
-    
-
-
+    cursor: pointer;
 }
 input:focus{
     outline: none;
-    /* border-bottom: red solid 1px; */
     width: 100%;
     transition: 0.5s;
 }
@@ -69,15 +93,8 @@ input:hover{
     transition: 0.5s;
     width: 100%;
     transition: 0.5s;
-
-    /* height: 25px; */
-    /* border:3px solid blueviolet; */
 }
-
-a
-{
-    padding-right: 10px;
-}
+/* footer */
 .foot{
     border-top :rgb(255, 0, 0) solid 2px; 
     background-color: rgb(174, 177, 170) ;
@@ -95,72 +112,16 @@ a
     bottom: 10px;
     
 }
-.head
-{
-    border-bottom:rgb(255, 0, 0) solid 2px ;
-    background: rgba(254, 255, 253, 0.7);
-    display: flex;
-    flex-direction: row;
-}
-.logoAccIns
-{
-    width: 80px;
-    margin-left: auto;
-    padding-left: 10%;
-    padding-top: 1.6%;
-}
-.sos
+
+.sociallogo
 {
     position: relative;
         bottom: -20px;
 
 }
-.imguni{
-    height: 60px;
-}
-.imgfab{
-    height: 60px;
-}
-.contenu
-{
-    margin: 3%;
-}
-
-.sos
-{
-    position: relative;
-        bottom: -20px;
-
-}
-.submit_btn{
-    display: inline-block;
-    /* text-decoration: none; */
-    color: rgb(104, 22, 104);
-    border: 1px solid  rgb(255, 255, 255);
-    padding: 12px 34px;
-    font-size: 13px;
-    margin-top: 20px;
-    position: relative;
-    cursor: pointer;
-    border-radius: 20px;
-    left: 10px;
-}
-.submit_btn:hover
-{
-    
-    border:3px solid blueviolet;
-    background: rgb(255, 0, 0);
-    transition: 1s;
-}
-.images
-{
-    width: 85%;
-}
-
-
   @media (max-width: 700px)
 {
-    .bloblo h3{
+    .boxsign h3{
         font-size: 20px;
     }
     body
@@ -185,7 +146,7 @@ a
         width: 200%;
     }
    
-    .bloblo{
+    .boxsign{
         border: none;
         position: relative;
         top: 230px;
@@ -193,17 +154,17 @@ a
         left:  150px;
         
     }
-    .bloblo:hover
+    .boxsign:hover
     {
         background: transparent;
 
     }
-    .bloblo a 
+    .boxsign a 
     {
         position: relative;
         left: 35px;
     }
-    .bloblo h3
+    .boxsign h3
     {
         position: relative;
         left: 20px;
@@ -252,7 +213,7 @@ a
         width: 3cm;
         padding-left: 0px;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -291,7 +252,7 @@ a
     {
         max-width: 100%;
     }
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
@@ -299,7 +260,7 @@ a
     .foot{
         height: 8%;
     }
-  .bloblo
+  .boxsign
   {
     height: 56%;
   }
@@ -350,7 +311,7 @@ a
         height: 1cm;
         top: -5px ;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -398,7 +359,7 @@ a
 } */
 /* 
 
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
@@ -406,7 +367,7 @@ a
     .foot{
         height: 10%;
     }
-  .bloblo
+  .boxsign
   {
     height: 56%;
   }
@@ -431,7 +392,7 @@ a
         height: 1cm;
         top: -5px ;
     }
-    .bloblo{
+    .boxsign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -485,7 +446,7 @@ a
         padding-left: 30px;
         
     }
-    .sos{
+    .sociallogo{
         position: absolute;
         bottom: 8px;
         width: -40px;
