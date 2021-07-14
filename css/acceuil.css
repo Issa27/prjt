@@ -1,39 +1,57 @@
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .left {
-      margin-top: 15%;
-    left: 0;
-    background-color: #111;
-  }
-  
-  /* Control the right side */
-  .right {
-    margin-top: 15%;
-
-    right: 0;
-    background-color: red;
-  }
-  
-  /* If you want the content centered horizontally and vertically */
-  .centered {
-    position: absolute;
-    text-align: center;
-    left: 40%;
-  }
-  
-  .img1{
-      height: 5cm;
-  }
-  a
+.homebody
 {
-    padding-right: 10px;
+  background-color: #faf4ef;
+  background-image: none;
+}
+h1
+{
+  font-size: 80px;
+  letter-spacing: 5px;
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 2rem;;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: #000080;
+  padding-top: 30px;
+  cursor: pointer;
+}
+h1::after {
+  position: absolute;
+  margin-left: 43.8%;
+  content: "";
+  width: 12%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #ff7000;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+h1:hover {
+  color: #95a5a6;
+}
+h1:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.presenting img
+{
+  width: 65%;
+  height: 500px;
+  image-rendering: auto;
+  margin-left: 17.5%;
+  border-radius: 8px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.presenting img:hover
+{
+  opacity: 1;
+  transition: 0.5s;
+  box-shadow: 3px 5px 10px rgb(59, 56, 56)
 }
